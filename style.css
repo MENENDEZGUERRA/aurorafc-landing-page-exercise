@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:ital@1&display=swap');
+body{
+    font-family: 'Zilla Slab', serif;
+    background-color: #FDE201;
+}
+
+/*--- Header ---*/
+.header {
+    background-color: #070607;
+    color: #F9FAF9;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-container {
+    padding: 2vh;
+    display: flex;
+}
+
+.logo {
+    width: 20vh;
+    height: auto;
+}
+
+.logo-text {
+    display: flex;
+    align-items: center;
+    font-size: 34px;
+}
+
+.links-container {
+    display: flex;
+    align-items: center;
+    padding-right: 5vh;
+    padding-left: 5vh;
+    gap: 10vh;
+    font-size: 24px;
+}
+
+/*--- Hero ---*/
+.hero {
+    background-color: #070607;
+    color: white;
+}
+
+.hero-content {
+    display: flex;
+    justify-content: space-around;
+    border: #FDE201 solid 1px;
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 8vh;
+    
+}
+
+.hero-text h1,
+.hero-text p {
+    margin: 0;
+}
+
+.hero-text h1 {
+    font-size: 40px;
+}
+
+.hero-text p {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+
+.hero-text button {
+    background-color: #FDE201;
+    border: #F9FAF9 1px solid;
+    border-radius: 8px;
+    color: #F9FAF9;
+    padding: 10px;
+    font-size: 30px;
+
+}
+
+
+.hero-image-container {
+    display: flex;
+    padding: 8vh;
+    align-items: center;
+    justify-items: center;
+}
+
+.hero-image{
+    width: 100vh;
+    height: auto;
+}
+
+/*--- Players ---*/
+.players{
+
+}
+
+.players-container {
+    display: flex;
+    background-color: #070607;
+    padding: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    background-color: #FDE201;
+    color: #070607;
+    border-radius: 8px;
+}
+
+.player-image {
+    width: 200px;
+    height: auto;
+    margin: 4px;
+
+    border-radius: 8px;
+}
+
+.player-information {
+    margin: 4px;
+}
+
+/*--- Qoute ---*/
