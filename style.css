@@ -2,6 +2,13 @@
 body{
     font-family: 'Zilla Slab', serif;
     background-color: #FDE201;
+
+    display: flex;
+    flex-direction: column;
+}
+
+div {
+    border-radius: 8px;
 }
 
 /*--- Header ---*/
@@ -133,3 +140,54 @@ body{
 }
 
 /*--- Qoute ---*/
+.qoute {
+    background-color: #070607;
+    color: #F9FAF9;
+    padding: 50px;
+    border: #FDE201 solid 1px
+}
+
+.qoute-container {
+    font-size: 40px;
+}
+
+/*--- CTA ---*/
+.cta {
+    padding: 50px;
+}
+
+.cta-container {
+    background-color:#070607;
+    color: #F9FAF9;
+    display: flex;
+    justify-content: space-around;
+}
+
+.cta-text {
+    font-size: 20px;
+}
+
+.cta-button {
+    align-self: center;
+}
+
+.cta-button button{
+    align-self: center;
+
+    background-color: #FDE201;
+    border: #F9FAF9 1px solid;
+    border-radius: 8px;
+    color: #F9FAF9;
+    padding: 10px;
+    font-size: 30px;
+}
+
+/*--- Footer ---*/
+.footer {
+    background-color: #070607;
+    color: #F9FAF9;
+    margin: 0;
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+}
