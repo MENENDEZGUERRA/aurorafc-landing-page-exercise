@@ -3,7 +3,13 @@ This is a landing page redesign of the "Aurora Fútbol Club", a Guatemala footba
 
 Aclaration: This is not an oficial landing page in any way related to the oficial club, the landing page is just and exercise of design and elaboration of a landing page.
 
-# The proces
+# Check it out
+https://menendezguerra.github.io/aurorafc-landing-page-exercise/
+
+# Result
+![ ](./readme-files/result-gif-image.gif)
+
+# The process
 Also, I will like to record the process, so here we will find some of that. Starting with the sketch made to arganice the project.
 
 ## The sketch
